@@ -1,0 +1,26 @@
+
+# Python and virtual environments
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Data and generated artifacts
+data/raw/*
+data/processed/*
+models/*
+outputs/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
